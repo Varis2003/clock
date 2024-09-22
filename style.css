@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#clockContainer{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 40vw;
+    width: 40vw;
+    background: url('clock.jfif') no-repeat;
+    background-size: 100%;
+    margin : auto;
+}
+
+#hour , #minute , #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    /* It means rotate from center or bottom */
+    transform-origin: bottom; 
+}
+
+#hour{
+    width: 3%;
+    height: 22%;
+    top: 27%;
+    left: 48.3%;
+   
+    
+}
+#minute{
+    width: 3%;
+    height: 30%;
+    top: 18%;
+    left: 48.3%;
+    opacity: 0.8;
+    
+}
+#second{
+    width: 3%;
+    height: 35%;
+    top: 15%;
+    left: 48.3%;
+    opacity: 0.6 ;
+    
+}
